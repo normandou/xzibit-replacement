@@ -7,7 +7,7 @@ var observer = new MutationObserver(function (mutations) {
     const element = document.querySelector('[aria-label="Twitter"]');
     if (element) {
       logoHasBeenModified = true;
-      element.children[0].innerHTML = `<img class='x-to-twitter-logo' src="img/xzibit-a.png?raw=true">`
+      element.children[0].innerHTML = `<img class='x-to-twitter-logo' src="https://github.com/normandou/xzibit-replacement/blob/main/img/xzibit-a.png?raw=true">`
     }
   });
 });
