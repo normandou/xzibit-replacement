@@ -1,10 +1,15 @@
 {
-  "name": "Favicon API in content scripts",
-  "version": "1.1",
+  "name": "X logo to Twitter Logo",
+  "version": "0.1",
   "manifest_version": 3,
+  "description": "Change X logo to the old Twitter logo",
+  "icons": {
+    "64": "size-64.png"
+  },
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
+      "run_at": "document_end",
+      "matches": ["https://twitter.com/*"],
       "js": ["content.js"],
       "css": ["style.css"]
     }
