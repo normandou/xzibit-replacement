@@ -1,15 +1,15 @@
 {
-  "name": "X logo to Twitter Logo",
+  "name": "Xxibit Replacer",
   "version": "0.1",
   "manifest_version": 3,
-  "description": "Change X logo to the old Twitter logo",
+  "description": "Change X (Twitter)'s logo to Xzibit. A fork from Sorikairox's Twitter Extension script (https://github.com/Sorikairox/twitter-extension)",
   "icons": {
-    "64": "size-64.png"
+    "64": "img/xzibit-a.png"
   },
   "content_scripts": [
     {
       "run_at": "document_end",
-      "matches": ["https://twitter.com/*"],
+      "matches": ["https://twitter.com/*", "https://x.com/*"],
       "js": ["content.js"],
       "css": ["style.css"]
     }
