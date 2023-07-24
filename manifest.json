@@ -14,11 +14,5 @@
       "css": ["style.css"]
     }
   ],
-  "permissions": ["favicon"],
-  "web_accessible_resources": [
-    {
-      "resources": ["_favicon/*"],
-      "matches": ["<all_urls>"]
-    }
-  ]
+  "permissions": ["favicon"]
 }
