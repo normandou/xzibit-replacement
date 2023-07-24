@@ -13,6 +13,5 @@
       "js": ["content.js"],
       "css": ["style.css"]
     }
-  ],
-  "permissions": ["favicon"]
+  ]
 }
